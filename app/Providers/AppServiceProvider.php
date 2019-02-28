@@ -13,7 +13,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
     }
 
     /**
@@ -23,6 +22,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        require_once __DIR__ . '/../Http/Helpers/Helper.php';
     }
 }
